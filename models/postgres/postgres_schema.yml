@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: mywarehousesource
+    description: 'Postgres database'
+    database: mywarehouse
+    schema: public
+    tables:
+      - name: users #required
+        description: 'users table in the mywarehouse db'
